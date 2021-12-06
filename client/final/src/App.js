@@ -7,7 +7,8 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          et <code>srcp</code> ad save 
+          Just another React App
+          
         </p>
         <a
 
