@@ -4,6 +4,7 @@ const axios = require("axios");
 const port = 5000;
 app.get("/", async (req, res) => {
   let image = await axios("https://source.unsplash.com/random");
+  console.log(image);
   res.send(`<img src="${image.request.res.responseUrl}" />`);
 });
 
